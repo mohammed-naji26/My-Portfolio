@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Contact Moe Abo Sen." />
+    <title>Contact | Moe Abo Sen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="index.html">MOE <span>ABO SEN</span></a
+        ><button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="projects.html">Projects</a
+          ><a class="active" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Professional inquiries</p>
+          <h1>Contact</h1>
+          <p class="lead">
+            Connect with me regarding professional opportunities, technical
+            collaboration, or project questions.
+          </p>
+        </div>
+      </div>
+      <section>
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact information</h2>
+            <div class="contact-list">
+              <div class="contact-item">
+                <strong>Email</strong
+                ><a href="mailto:mohamed.naji1960@gmail.com"
+                  >mohamed.naji1960@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <strong>GitHub</strong
+                ><a href="https://github.com/mohammed-naji26"
+                  >github.com/mohammed-naji26</a
+                >
+              </div>
+              <div class="contact-item">
+                <strong>Location</strong
+                ><span>Rockford, Illinois, United States</span>
+              </div>
+            </div>
+          </div>
+          <form class="form" id="contact-form">
+            <h2>Send a message</h2>
+            <p>
+              This demonstration form illustrates front-end JavaScript behavior.
+              Direct inquiries may be sent through the email link.
+            </p>
+            <div class="field">
+              <label for="name">Name</label><input id="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label
+              ><input id="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label
+              ><textarea id="message" required></textarea>
+            </div>
+            <button class="button primary" type="submit">Send message</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span data-year></span> Moe Abo Sen</p>
+        <p>Designed and developed for GitHub Pages.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
